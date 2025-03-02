@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     font-family:'Arial', sans-serif;
     color: #f6f8f27c;
@@ -5,14 +9,24 @@ body {
 }
 
 .navbar {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     box-sizing: border-box;
     padding-left: 10%;
     padding-right: 10%;
 
 }
 
+section {
+    padding: 60px 20px;
+    min-height: 100vh;
+}
+
 .section-title {
     font-size: 2em;
     margin-bottom: 20px;
 }
+
+#sobre { background-color: #31ca1d; }
+#servicos { background-color: #2e45c9; }
+#portfolio { background-color: #dfca0f; }
+#contatos { background-color: #da1c1c; }
