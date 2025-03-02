@@ -17,7 +17,7 @@ body {
 }
 
 header{
-    background-image: url(img/EG_logo.jpeg);
+    background-image: url(/img/bootcamp.jpg);
     position:relative;
     background-size: cover;
     background-position: center;
@@ -25,6 +25,7 @@ header{
     width: 100%;
     height: 100vh;  
 }
+
 
 header .header-content {
     position: relative;
@@ -62,7 +63,7 @@ section {
     margin-bottom: 20px;
 }
 
-#sobre { background-color: #31ca1d; }
-#servicos { background-color: #2e45c9; }
+#about { background-color: #383838; }
+#areas { background-color: #2e45c9; }
 #portfolio { background-color: #dfca0f; }
-#contatos { background-color: #da1c1c; }
+#contacts { background-color: #da1c1c; }
