@@ -8,6 +8,10 @@ body {
     background-color:#383838;
 }
 
+hr {
+    border: 0;
+}
+
 .navbar {
     margin-bottom: 0px;
     box-sizing: border-box;
@@ -79,6 +83,10 @@ p {
     text-align: left;
 }
 
+#about .col-lg-6 {
+    max-width: 600px; /* Prevents text from being too wide */
+}
+
 .profile-picture {
     width: 300px; /* Defina a largura desejada */
     height: 300px; /* Defina a altura desejada */
@@ -96,4 +104,8 @@ p {
     height: 100%;
     border-radius: 50%; /* Torna a imagem circular */
   }
+
+  .gap-3 a {
+    margin: 5px;
+}
   
