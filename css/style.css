@@ -54,7 +54,7 @@ header .header-content .header-content-inner p {
 
 
 section {
-    padding: 60px 20px;
+    padding: 80px 20px;
     min-height: 100vh;
 }
 
@@ -67,3 +67,33 @@ section {
 #areas { background-color: #2e45c9; }
 #portfolio { background-color: #dfca0f; }
 #contacts { background-color: #da1c1c; }
+
+
+p {   
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#about .about_paragraph {
+    text-align: left;
+}
+
+.profile-picture {
+    width: 300px; /* Defina a largura desejada */
+    height: 300px; /* Defina a altura desejada */
+    border: 5px solid #fff; /* Cor e espessura da borda */
+    border-radius: 50%; /* Torna o contêiner circular */
+    padding: 5px; /* Espaçamento entre a imagem e a borda */
+    background: linear-gradient(to right, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); /* Gradiente semelhante ao do Instagram */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .profile-picture img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%; /* Torna a imagem circular */
+  }
+  
