@@ -1,11 +1,14 @@
 html{
     scroll-behavior: smooth;
+    
 }
 
 body {
     font-family:'Arial', sans-serif;
     color: #f6f8f27c;
     background-color:#383838;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 hr {
@@ -110,7 +113,7 @@ p {
 }
 
 .card {
-    background-color: cadetblue;
+    background-color: #cfcccc;
     border: none;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
@@ -121,6 +124,18 @@ p {
 }
 
 .card-img-top {
-    height: 100px; /* Ajuste conforme necessário */
+    height: 150px; /* Ajuste conforme necessário */
     object-fit: cover;
-}  
+} 
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #171616;
+}
+
+.card-text {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #171616;
+}
