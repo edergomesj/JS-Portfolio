@@ -163,54 +163,44 @@
 
 <!--Portfolio section-->
     <section id="portfolio">
-        <div class="row align-items-first text-center justify-content-center">
-            <div class="areas-content">
-                <div class="areas-content-inner">
-                    <h1>Portfólio</h1>
-                    <hr>
-                    <p>My work and projects</p>
+        <div class="container">
+            <div class="row align-items-first text-center justify-content-center">
+                <div class="areas-content">
+                    <div class="areas-content-inner">
+                        <h1>Portfólio</h1>
+                        <hr>
+                        <p>My work and projects</p>
+                    </div>
                 </div>
             </div>
-        </div>
+
         <!--Portfolio Nav-tab-->
-        <div class="container">
-            <ul id="portfolioTabs" class="nav nav-pills justify-content-center mb-4">
+            <ul id="portfolioTabs" class="nav nav-pills nav-justified justify-content-center mb-4">
                 <li class="nav-item">
-                    <a id=nav-powerbi class="nav-link active" data-bs-toggle="pill" href="#powerbi">Power BI</a>
+                    <a id=nav-powerbi class="nav-link active" data-bs-toggle="pill" href="#powerbi" aria-current="page">Power BI</a>
                 </li>
                 <li class="nav-item">
                     <a id="nav-tableau" class="nav-link" data-bs-toggle="pill" href="#tableau">Tableau</a>
                 </li>
                 <li class="nav-item">
-                    <a id="nav-plotly" class="nav-link" data-bs-toggle="pill" href="#contacts">Plotly</a>
+                    <a id="nav-looker" class="nav-link" data-bs-toggle="pill" href="#looker">Google Looker</a>
                 </li>
                 <li class="nav-item">
-                    <a id="nav-ml" class="nav-link" data-bs-toggle="pill" href="#about">Machine learning</a>
+                    <a id="nav-plotly" class="nav-link" data-bs-toggle="pill" href="#plotly">Plotly</a>
+                </li>
+                <li class="nav-item">
+                    <a id="nav-ml" class="nav-link" data-bs-toggle="pill" href="#ml">Machine learning</a>
                 </li>
             </ul> 
             <div class="tab-content">
                 <!--Power BI-->
                 <div id="powerbi" class="tab-pane fade show active">
                     <div class="row">
-                        <div class="col-md-4 mt-5">
+                        <div class="col-md-4 mt-4">
                             <div class="card data-bs-toggle="modal" data-bs-target="#dashboardModal" data-dashboard="">
                                 <img src="/img/PowerBI_01.png" class="card-img-top" alt="powerbi_pj01_img">
                                 <div class="card-body">
-                                    <h5 class="card-title>Dashboard PBI_01</h5>
-                                    <p class="card-text">This a longer card.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--tableau-->
-                <div id="tableau" class="tab-pane fade">
-                    <div class="row">
-                        <div class="col-md-4 mt-5">
-                            <div class="card project-card data-bs-toggle="modal" data-bs-target="#dashboardModal" data-dashboard="">
-                                <img src="/img/tableau_01.png" class="card-img-top" alt="tableau_pj01_img">
-                                <div class="card-body">
-                                    <h5 class="card-title>Dashboard Tableau_01</h5>
+                                    <h5 class="card-title">Dashboard PBI_01</h5>
                                     <p class="card-text">This a longer card.</p>
                                 </div>
                             </div>
@@ -218,6 +208,67 @@
                     </div>
                 </div>
 
+                <!--tableau-->
+                <div id="tableau" class="tab-pane fade">
+                    <div class="row">
+                        <div class="col-md-4 mt-4">
+                            <div class="card project-card data-bs-toggle="modal" data-bs-target="#dashboardModal" data-dashboard="">
+                                <img src="/img/tableau_01.png" class="card-img-top" alt="tableau_pj01_img">
+                                <div class="card-body">
+                                    <h5 class="card-title">Dashboard Tableau_01</h5>
+                                    <p class="card-text">This a longer card.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+                
+                <!--looker-->
+                <div id="looker" class="tab-pane fade">
+                    <div class="row">
+                        <div class="col-md-4 mt-4">
+                            <div class="card project-card data-bs-toggle="modal" data-bs-target="#dashboardModal" data-dashboard="https://lookerstudio.google.com/s/udCoL_TXE9U">
+                                <img src="/img/Cars_for_Sale.jpg" class="card-img-top" alt="looker_pj01_img">
+                                <div class="card-body">
+                                    <h5 class="card-title">Dashboard looker_01</h5>
+                                    <p class="card-text">This a longer card.</p>
+                                    <a class="btn btn-primary"  href="https://lookerstudio.google.com/s/udCoL_TXE9U">Car Sales</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--plotly-->
+                <div id="plotly" class="tab-pane fade">
+                    <div class="row">
+                        <div class="col-md-4 mt-4">
+                            <div class="card project-card data-bs-toggle="modal" data-bs-target="#dashboardModal" data-dashboard="">
+                                <img src="/img/plotly_01.png" class="card-img-top" alt="plotly_pj01_img">
+                                <div class="card-body">
+                                    <h5 class="card-title">Dashboard Plotly_01</h5>
+                                    <p class="card-text">This a longer card.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Machine Learning-->
+                <div id="ml" class="tab-pane fade">
+                    <div class="row">
+                        <div class="col-md-4 mt-4">
+                            <div class="card project-card data-bs-toggle="modal" data-bs-target="#dashboardModal" data-dashboard="">
+                                <img src="/img/ml_01.png" class="card-img-top" alt="ml_pj01_img">
+                                <div class="card-body">
+                                    <h5 class="card-title">Dashboard ML_01</h5>
+                                    <p class="card-text">This a longer card.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
