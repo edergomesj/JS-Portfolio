@@ -124,7 +124,7 @@ p {
 }
 
 .card-img-top {
-    height: 150px; /* Ajuste conforme necessário */
+    height: 200px; /* Ajuste conforme necessário */
     object-fit: cover;
 } 
 
