@@ -192,3 +192,12 @@ p {
     font-weight: 300;
     color: rgba(255,255,255,0.7);
 }
+
+.copyright {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 14px;
+    color: #666;
+}
