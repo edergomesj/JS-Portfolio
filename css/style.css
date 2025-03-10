@@ -88,14 +88,26 @@ section {
 }
 
 #about { 
-    background-image: url(/img/bg_Morpheus_Den.png); 
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
     position:relative;
     background-size: cover;
     background-position: center;
     background-repeat: no-reapeat;
 }
-#areas { background-color: #383838; }
-#portfolio { background-color: #383838; }
+#areas { 
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    position:relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-reapeat;
+}
+#portfolio { 
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    position:relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-reapeat;
+}
 #contacts { background-color: #fff; }
 
 
@@ -123,7 +135,7 @@ p {
     border: 5px solid #fff; /* Cor e espessura da borda */
     border-radius: 50%; /* Torna o contêiner circular */
     padding: 5px; /* Espaçamento entre a imagem e a borda */
-    background: linear-gradient(to right, #8c8c8c, #b0b0b0, #a9a9a9, #d9d9d9, #c0c0c0); /* Gradiente semelhante ao do Instagram */
+    background: linear-gradient(to right, #52b2bf, #1f456e, #0a1172, #1338be, #3944bc);/* Blue Gradiente */
     display: flex;
     justify-content: center;
     align-items: center;
