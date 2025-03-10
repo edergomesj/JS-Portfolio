@@ -28,7 +28,7 @@ hr {
 }
 
 header{
-    background-image: url(/img/bootcamp.jpg);
+    background-image: url(/img/bg_shakker_01.png);
     position:relative;
     background-size: cover;
     background-position: center;
@@ -74,7 +74,13 @@ section {
     margin-bottom: 20px;
 }
 
-#about { background-color: #383838; }
+#about { 
+    background-image: url(/img/bg_Morpheus_Den.png); 
+    position:relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-reapeat;
+}
 #areas { background-color: #383838; }
 #portfolio { background-color: #383838; }
 #contacts { background-color: #fff; }
@@ -155,7 +161,7 @@ p {
     align-items: center;
     min-height: 100vh;
     width: 100%;
-    background-image: url(/img/EG_logo.jpeg);
+    background-image: url(/img/bg_shakker_09.png);
     position:relative;
     background-size: cover;
     background-position: center;
