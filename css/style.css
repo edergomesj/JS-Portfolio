@@ -25,6 +25,19 @@ hr {
     box-sizing: border-box;
     padding-left: 10%;
     padding-right: 10%;
+    
+    background: linear-gradient(to top, #b3b3b3, #d9d9d9);
+    color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .nav-link {
+    color: white;
+    /*font-weight: bold;*/
+}
+
+.navbar .nav-link:hover {
+    color: #e0e0e0;
 }
 
 header{
@@ -110,7 +123,7 @@ p {
     border: 5px solid #fff; /* Cor e espessura da borda */
     border-radius: 50%; /* Torna o contêiner circular */
     padding: 5px; /* Espaçamento entre a imagem e a borda */
-    background: linear-gradient(to right, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); /* Gradiente semelhante ao do Instagram */
+    background: linear-gradient(to right, #8c8c8c, #b0b0b0, #a9a9a9, #d9d9d9, #c0c0c0); /* Gradiente semelhante ao do Instagram */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -128,7 +141,8 @@ p {
 }
 
 .card {
-    background-color: #cfcccc;
+    background: linear-gradient(135deg, #d4d4d4, #b0b0b0, #8c8c8c);
+    color: white;
     border: none;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
@@ -136,6 +150,7 @@ p {
 
 .card:hover {
     transform: translateY(-5px);
+    color: #e0e0e0;
 }
 
 .card-img-top {
