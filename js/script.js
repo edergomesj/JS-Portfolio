@@ -1,5 +1,12 @@
 
 
+/*$(document).ready(function() {
+    $(".nav-item").click(function(){
+        $(".collapse").collapse('hide');
+    });
+});*/
+
+
 document.addEventListener("DOMContentLoaded", function () {
     const projectCards = document.querySelectorAll(".project-card");
     const dashboardFrame = document.getElementById("dashboardFrame");
@@ -21,3 +28,5 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+
+
