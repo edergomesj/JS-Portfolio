@@ -1,4 +1,4 @@
-
+/* General */
 html{
     scroll-behavior: smooth;
     
@@ -28,6 +28,96 @@ p {
     
 }
 
+.btn-deepblue {
+    background-color: #1338be;  /* Azul metálico escuro */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Efeito de hover */
+.btn-deepblue:hover {
+    background-color: #52b2bf; /* Azul ciano */
+    color: white;
+    transform: scale(1.05); /* Pequeno efeito de crescimento */
+}
+
+
+.btn-chrome {
+    background: linear-gradient(135deg, #f2f2f2 0%, #d9d9d9 20%, #b3b3b3 40%, #8c8c8c 60%, #666666 80%, #f2f2f2 100%);
+    color: #212121;
+    font-weight: bold;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #999;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+    transition: background 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.btn-chrome:hover {
+    background: linear-gradient(135deg, #ffffff 0%, #e6e6e6 25%, #b3b3b3 50%, #8c8c8c 75%, #ffffff 100%);
+    color: #000;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.3);
+    transform: scale(1.05);
+}
+
+.btn-chrome:active {
+    background: linear-gradient(135deg, #d9d9d9 0%, #b3b3b3 50%, #666666 100%);
+    box-shadow: inset 2px 2px 6px rgba(0,0,0,0.4);
+    transform: scale(0.98);
+    color: #212121;
+}
+
+
+
+.btn-grad-blue {background-image: linear-gradient(to right, #005C97 0%, #363795  51%, #005C97  100%)}
+.btn-grad-blue {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn-grad-blue:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+
+ .btn-grad-cobalt {background-image: linear-gradient(to right, #1e3c72 0%, #2a5298  51%, #1e3c72  100%)}
+ .btn-grad-cobalt {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .btn-grad-cobalt:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+
+/* Navbar */
 .navbar {
     margin-bottom: 0px;
     box-sizing: border-box;
@@ -48,6 +138,8 @@ p {
     color: #e0e0e0;
 }
 
+
+/* Header */
 header{
     background-image: url(/img/bg_shakker_01.png);
     position:relative;
@@ -86,6 +178,7 @@ header .header-content .header-content-inner p {
 }
 
 
+/* Section */
 section {
     padding: 80px 20px;
     min-height: 100vh;
@@ -120,6 +213,7 @@ section {
 #contacts { background-color: #fff; }
 
 
+/*About*/ 
 #about .about_paragraph {
     text-align: left;
 }
@@ -153,6 +247,8 @@ section {
     margin: 5px;
 }
 
+
+/* Areas */
 #areas .areas-content .areas-content-inner h1{
     margin-top: 0;
     margin-bottom: 0;
@@ -172,6 +268,8 @@ section {
     color: rgba(33,33,33,0.7);
 }
 
+
+/* Portfolio */
 #portfolio .portfolio-content .portfolio-content-inner h1{
     margin-top: 0;
     margin-bottom: 0;
@@ -190,8 +288,6 @@ section {
     font-weight: 300;
     color: rgba(33,33,33,0.7);
 }
-
-
 
 .card {
     background: linear-gradient(135deg, #d4d4d4, #b0b0b0, #8c8c8c);
@@ -223,6 +319,8 @@ section {
     color: #212121;
 }
 
+
+/* Contacts */
 #contacts {
     display: flex;
     justify-content: center;
