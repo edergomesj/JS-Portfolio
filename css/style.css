@@ -101,21 +101,21 @@ section {
     position:relative;
     background-size: cover;
     background-position: center;
-    background-repeat: no-reapeat;
+    background-repeat: no-repeat;
 }
 #areas { 
     background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
     position:relative;
     background-size: cover;
     background-position: center;
-    background-repeat: no-reapeat;
+    background-repeat: no-repeat;
 }
 #portfolio { 
     background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
     position:relative;
     background-size: cover;
     background-position: center;
-    background-repeat: no-reapeat;
+    background-repeat: no-repeat;
 }
 #contacts { background-color: #fff; }
 
