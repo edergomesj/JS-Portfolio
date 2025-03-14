@@ -138,6 +138,11 @@ p {
     color: #666 !important;
 }
 
+.navbar-brand:hover {
+    color: #666;
+    transform: scale(1.05); /* Pequeno efeito de zoom ao passar o mouse */
+}
+
 
 /* Header */
 header{
