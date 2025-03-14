@@ -1,0 +1,103 @@
+
+{
+    "pt-BR": {
+        
+        "navbar-about": "Sobre",
+        "navbar-portfolio": "Portfólio",
+        "navbar-contact": "Contato",
+        "navbar-areas": "Ãreas",
+        
+        "title": "Éder Gomes",
+        "subtitle": "Conheça algumas das minhas especialidades.",
+        "button-see-more": "Saiba mais",
+
+        "about-text1": "Olá! Sou um analista de dados com experiência em transformar conjuntos de dados complexos em insights significativos. Com um histórico de entrega de soluções orientadas a dados para grandes instituições financeiras, agências governamentais, e empresas proeminentes no Brasil, minha expertise abrange extração de dados, transformação, e análise aprofundada para criar visualizações, relatórios e modelos preditivos impactantes.",
+        "about-text2": "Explorar dados não é apenas meu trabalho; é uma paixão. Adoro mergulhar em novos conjuntos de dados e descobrir padrões que outros podem ignorar. Minha curiosidade me mantém motivado a aprender continuamente e me manter atualizado com os avanços do setor. Conhecido por ser detalhista, acredito que precisão e exatidão são essenciais para tornar os dados realmente valiosos. Também sou um forte jogador de equipe que gosta de colaborar com outras pessoas para gerar resultados e construir soluções juntos.",
+
+        "areas-title": "Áreas de Interesse",
+        "areas-subtitle": "Dê uma olhada em algumas das minhas especialidades",
+        "areas-card1-title": "Análise de Dados para Decisões Estratégicas",
+        "areas-card2-title": "Visualização de Dados Impactante",
+        "areas-card3-title": "Modelagem Preditiva e Machine Learning",
+        "areas-card4-title": "Integração e Tratamento de Dados",
+        "areas-card5-title": "Automação de Processos com Python",
+        "areas-card6-title": "Consultoria em Business Intelligence",
+
+        "areas-card1-text": "Transformo dados brutos em insights acionáveis, ajudando sua empresa a reduzir custos, aumentar receitas e otimizar processos com base em informações concretas.",
+        "areas-card2-text": "Crio dashboards interativos e relatórios dinâmicos que tornam informações complexas fáceis de interpretar, permitindo uma tomada de decisão rápida e eficiente.",
+        "areas-card3-text": "Utilizo técnicas avançadas de inteligência artificial para prever tendências de mercado, comportamento do consumidor e riscos operacionais, garantindo vantagens competitivas.",
+        "areas-card4-text": "Garanto que seus dados estejam limpos, organizados e acessíveis, integrando fontes diversas para facilitar a automação e eficiência operacional.",
+        "areas-card5-text": "Desenvolvo soluções automatizadas para análise, extração e processamento de dados, economizando horas de trabalho manual.",
+        "areas-card6-text": "Ajudo empresas a estruturarem estratégias de BI, implementando ferramentas como Power BI, Tableau e Looker Studio para uma gestão orientada a dados.",
+
+        "portfolio-title": "Áreas de Interesse",
+        "portfolio-subtitle": "Dê uma olhada em algumas das minhas especialidades",
+        "portfolio-card1-title": "",
+        "portfolio-card2-title": "",
+        "portfolio-card3-title": "Learn More",
+        "portfolio-card4-title": "Learn More",
+        "portfolio-card5-title": "Learn More",
+        "portfolio-card6-title": "Learn More",
+
+        "portfolio-card1-text": "Learn More",
+        "portfolio-card2-text": "Learn More",
+        "portfolio-card3-text": "Learn More",
+        "portfolio-card4-text": "Learn More",
+        "portfolio-card5-text": "Learn More",
+        "portfolio-card6-text": "Learn More",
+
+        "contacts-title": "Contatos",
+        "contacts-subtitle": "Conecte-se comigo através das redes sociais ou envie um e-mail para discutirmos idéias.",
+        "contacts-text": "Copyright© 2025 Eder Gomes. Todos os direitos reservados"
+    },
+
+    "en-US": {
+        "navbar-about": "About",
+        "navbar-portfolio": "Portfolio",
+        "navbar-contact": "Contact",
+        "navbar-areas": "Area",
+
+        "title": "Eder Gomes",
+        "subtitle": "Hi, I'm a Data Analist, analyzing and visualizing data to make better and informed business decisions.",
+        "button-see-more": "See more",
+        
+        "about-text1": "About Me",
+        "about-text2": "About Me",
+
+        "areas-title": "Areas of Interest",
+        "areas-subtitle": "Take a look at some of my areas of interest",
+        "areas-card1-title": "Data Analysis for Strategic Decisions",
+        "areas-card2-title": "Impactful Data Visualization",
+        "areas-card3-title": "Predictive Modeling and Machine Learning",
+        "areas-card4-title": "Data Integration and Processing",
+        "areas-card5-title": "Process Automation with Python",
+        "areas-card6-title": "Business Intelligence Consulting",
+
+        "areas-card1-text": "I transform raw data into actionable insights, helping your company reduce costs, increase revenue and optimize processes based on concrete information.",
+        "areas-card2-text": "I create interactive dashboards and dynamic reports that make complex information easy to interpret, enabling fast and efficient decision-making.",
+        "areas-card3-text": "I use advanced artificial intelligence techniques to predict market trends, consumer behavior and operational risks, ensuring competitive advantages.",
+        "areas-card4-text": "I ensure your data is clean, organized and accessible, integrating diverse sources to facilitate automation and operational efficiency.",
+        "areas-card5-text": "I develop automated solutions for data analysis, extraction and processing, saving hours of manual work.",
+        "areas-card6-text": "I help companies structure BI strategies, implementing tools such as Power BI, Tableau and Looker Studio for data-driven management.",
+
+        "portfolio-title": "Portfolio",
+        "portfolio-subtitle": "Dê uma olhada em algumas das minhas especialidades",
+        "portfolio-card1-title": "Learn More",
+        "portfolio-card2-title": "Learn More",
+        "portfolio-card3-title": "Learn More",
+        "portfolio-card4-title": "Learn More",
+        "portfolio-card5-title": "Learn More",
+        "portfolio-card6-title": "Learn MorProcess Automation with Pythone",
+
+        "portfolio-card1-text": "Learn More",
+        "portfolio-card2-text": "Learn More",
+        "portfolio-card3-text": "Learn More",
+        "portfolio-card4-text": "Learn More",
+        "portfolio-card5-text": "Learn More",
+        "portfolio-card6-text": "Learn More",
+
+        "contacts-title": "Contact",
+        "contacts-subtitle": "Connect with me on social media or email to discuss ideas",
+        "contacts-text": "Copyright© 2025 Eder Gomes. All rights reserved"
+    }
+}   
